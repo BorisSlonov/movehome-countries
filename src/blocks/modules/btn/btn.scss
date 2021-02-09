@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid  darken($main-blue, 15%) !important;
+    background-color: darken($main-blue, 15%) !important;
+    color: #fff !important;
+    padding: 0.75rem 3rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: $title-font;
+    cursor: pointer;
+    transition: all .25s;
+    letter-spacing: .45px;
+    text-decoration: none;
+
+    &__text {
+        margin-left: 0.35rem;
+    }
+
+    &:hover {
+        background-color: darken($main-blue, 5%) !important;
+    }
+
+    &:active {
+        background-color: darken($main-blue, 25%) !important;
+    }
+}
+
+.first-screen-text__btn {
+    background-color: #f9c92b !important;
+}
+.first-screen-text__btn:hover {
+    background-color: darken($main-blue, 25%) !important;
+}
+.first-screen-text__btn:active {
+    background-color: darken($main-blue, 40%) !important;
+}

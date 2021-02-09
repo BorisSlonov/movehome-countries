@@ -1,0 +1,109 @@
+.popular-shops {
+    padding: 5rem 0; 
+}
+.shops {
+    margin-top: 3rem;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__item:not(:first-child) {
+        margin-left: 25px;
+    }
+
+    &__descr {
+        margin-top: 1.25rem;
+        line-height: 1.5;
+    }
+
+    &__descr-link {
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            border-bottom: 1px solid $main-blue;
+        }
+    }
+
+}
+
+.shop {
+    transition: all .25s;
+    flex-basis: 25%;
+
+    a {
+        color: $main-blue;
+        text-decoration: none;
+        border-bottom: 1px solid  #098aeda1;
+    }
+
+   
+
+    &:hover .shop__img-descr {
+        background-color: darken($main-blue, 15%);
+    }
+
+    &__img-descr {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: $main-blue;
+        color: #fff;
+        transition: all .25s;
+
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $main-blue;
+
+    }
+}
+
+@media(max-width:1000px) {
+    .shops {
+
+        &__row {
+            flex-wrap: wrap;
+        }
+
+        &__item:not(:first-child) {
+            margin-left: 0;
+        }
+
+
+        &__item {
+            flex-basis: calc(50% - 20px);
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+@media(max-width:505px) {
+    .shops {
+        &__row {
+            flex-direction: column;
+        }
+
+        &__item {
+            &_amazon {
+                display: none;
+            }
+            &_avito {
+                display: none;
+            }
+        }
+    }
+}
+
+.section-products {
+    padding: 5rem 0;
+}
+
+.service-grid {
+    margin-top: 3rem;
+}

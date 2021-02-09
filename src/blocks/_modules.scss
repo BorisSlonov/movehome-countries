@@ -1,2 +1,45 @@
 @import "modules/header/header";
+@import "modules/btn/btn";
+@import "modules/our-services/services";
+@import "modules/page-form/page-form";
+@import "modules/page-video/page-video";
+@import "modules/popular-shops/popular-shops";
+@import "modules/worldwide-service/service";
+@import "modules/text-block/text-block";
+@import "modules/cost/cost";
 @import "modules/footer/footer";
+
+.page-reviews {
+    padding: 5rem 0;
+}
+
+.accord-link {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    background-color: #F9C92B;
+    color: #fff !important;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    border-radius: 10px !important;
+    transition: all .25s;
+
+    &:hover {
+        background-color: darken($main-blue, 5%) !important;
+    }
+
+    &:active {
+        background-color: darken($main-blue, 25%) !important;
+    }
+}
+
+
+.gdlr-core-input-wrap.gdlr-core-full-width input:not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="file"]):not([type="checkbox"]):not([type="radio"]),
+.gdlr-core-input-wrap.gdlr-core-full-width textarea,
+.gdlr-core-input-wrap.gdlr-core-full-width select {
+    font-weight: 600;
+}

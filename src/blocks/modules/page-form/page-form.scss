@@ -1,0 +1,50 @@
+.section-page-form {
+    padding: 5rem 0;
+
+
+}
+
+
+.page-form {
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex-basis: 50%;
+
+        &_img {
+            background-image: url(https://movehome.eu/wp-content/uploads/2020/12/fottt-1024x928.png);
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            min-height: 340px;
+        }
+    }
+
+    &__img {
+        max-width: 460px;
+    }
+}
+
+@media(max-width:768px) {
+    .page-form {
+        &__row {
+            flex-direction: column-reverse;
+        }
+
+        &__img { 
+            display: none;
+        }
+
+
+        
+    }
+
+    .page-form__item_img {
+        display: none !important;
+
+    }
+}
