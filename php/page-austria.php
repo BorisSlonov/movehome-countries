@@ -1,6 +1,6 @@
 <?php
 /*
-*  Template Name: page-germany
+*  Template Name: page-austria
 */
 
 ?>
@@ -8,6 +8,9 @@
 <?php
 get_header();
 ?>
+
+
+
 
 
 <section class="section-first-screen">
@@ -24,14 +27,14 @@ get_header();
                     </span>
                     <h1 class="first-screen-text__title">
                         ГРУЗОВЫЕ ПЕРЕВОЗКИ <br>
-                        <span class="sub-color">ГЕРМАНИЯ | РОССИЯ</span>
+                        <span class="sub-color">АВСТРИЯ | РОССИЯ</span>
                     </h1>
                     <div class="first-screen-text__countries first-countries">
                         <span class="first-countries__row">Доставляем груз: </span>
 
-                        <span class="first-countries__row">из <span class="sub-color underline">Германии</span> в Россию;</span>
+                        <span class="first-countries__row">из <span class="sub-color underline">Австрии</span> в Россию;</span>
 
-                        <span class="first-countries__row">из России в <span class="sub-color underline">Германию</span>;</span>
+                        <span class="first-countries__row">из России в <span class="sub-color underline">Австрию</span>;</span>
 
                         <span class="first-countries__row">Работаем со всеми городами!</span>
                     </div>
@@ -44,6 +47,7 @@ get_header();
                     </a>
                 </div>
                 <div class="first-screen__item first-screen-img">
+                <img src="https://movehome.eu/wp-content/uploads/2020/08/avstriya-1.png" alt="">
                 </div>
             </div>
         </div>
@@ -65,7 +69,7 @@ get_header();
                         посылки
                     </a>
                     <p class="our-services__text">
-                        Сервис для отправки посылок и товаров из интернет-магазина для себя и своих близких в Германию
+                        Сервис для отправки посылок и товаров из интернет-магазина для себя и своих близких в Австрию
                         или в Россию. Просчитаем вам самые сложные товарные группы, за которые не берутся другие
                         компании.
                     </p>
@@ -78,7 +82,7 @@ get_header();
                         переезды
                     </a>
                     <p class="our-services__text">
-                        Люди стали чаще переезжать в поисках лучшей жизни, и наша команда в Германии разработала выгодный
+                        Люди стали чаще переезжать в поисках лучшей жизни, и наша команда в Австрии разработала выгодный
                         тарифный план, где таможенные платежи и логистика будут рассматриваться индивидуально.
                     </p>
                 </div>
@@ -90,7 +94,7 @@ get_header();
                         коммерция
                     </a>
                     <p class="our-services__text">
-                        Экспресс-доставка грузов для бизнеса. Германия популярная страна для покупки товаров от текстиля
+                        Экспресс-доставка грузов для бизнеса. Австрия - популярная страна для покупки товаров от текстиля
                         до
                         химии. Доставка до двери от 5 евро за килограмм и сроком до 7 дней.
                     </p>
@@ -116,7 +120,7 @@ get_header();
                     <h2 class="sub-h2">
                         БЕСПЛАТНЫЙ РАСЧЕТ СТОИМОСТИ
                     </h2>
-                    <?php echo do_shortcode('[contact-form-7 id="7962" title="Запрос - Расчет стоимости перевозки"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="12973" title="страны верхняя форма"]') ?>
 
                 </div>
             </div>
@@ -142,8 +146,8 @@ get_header();
                         alt="">
                 </div>
                 <div class="page-video__item">
-                    <a data-fancybox  href="https://www.youtube.com/watch?v=3cdijN4TY8w" class="video-link">
-                        <img src="https://movehome.eu/wp-content/uploads/2021/01/mocgermany-1.png" alt="">
+                    <a data-fancybox  href="https://www.youtube.com/watch?v=QSIQlzrK_ug" class="video-link">
+                        <img src="https://movehome.eu/wp-content/uploads/2021/01/mokap_avstriya.png" alt="">
                         <img class="video-link__icon"
                             src="https://movehome.eu/wp-content/uploads/2021/01/play-button-2.svg" alt="">
                     </a>
@@ -160,7 +164,7 @@ get_header();
 
     <section class="popular-shops">
     <h2 class="main-h2">
-        ДОСТАВЛЯЕМ ИЗ ПОПУЛЯРНЫХ ИНТЕРНЕТ МАГАЗИНОВ
+        ДОСТАВЛЯЕМ ИЗ ПОПУЛЯРНЫХ ИНТЕРНЕТ-МАГАЗИНОВ
     </h2>
     <div class="container-fluid">
         <div class="shops">
@@ -175,8 +179,8 @@ get_header();
                     </a>
                     <p class="shops__descr">
                         Купить на <a href="https://www.ebay.com/" target="_blank">Ebay</a> можно практически любой
-                        товар, новый или бывший в употреблении. Те же онлайн
-                        магазины, порой, продают свою продукцию через eBay (ебей) по ценам ниже, чем в своих магазинах.
+                        товар, новый или  б/у . Те же онлайн
+                        магазины порой продают свою продукцию через eBay (ебей) по ценам ниже, чем в своих магазинах.
                     </p>
                 </div>
                 <div class="shops__item shop">
@@ -188,8 +192,7 @@ get_header();
                     </a>
                     <p class="shops__descr">
                         <a class="shops__descr-link" href="https://www.ozon.ru/" target="_blank">Ozon.ru</a> —
-                        крупнейший интернет-магазин в России. На Ozon можно заказать всё, что вам нужно: электронику и
-                        бытовую технику, детские товары и прочие товары.
+                        крупнейший интернет-магазин в России. На Ozon можно заказать всё, что вам нужно: электронику, бытовую технику, детские товары и прочее.
                     </p>
                 </div>
                 <div class="shops__item shops__item_amazon shop">
@@ -214,7 +217,7 @@ get_header();
                         </span>
                     </a>
                     <p class="shops__descr">
-                        Купить на <a href="https://www.amazon.com/" target="_blank">Amazon</a> — американская компания,
+                        <a href="https://www.amazon.com/" target="_blank">Amazon</a> — американская компания,
                         крупнейшая в мире на рынках платформ электронной коммерции и публично-облачных вычислений по
                         выручке и рыночной капитализации.
                     </p>
@@ -368,12 +371,12 @@ get_header();
                 <div class="service__item">
                     <img class="service__mob-arrow" src="https://movehome.eu/wp-content/uploads/2020/12/liness-300x189.png" alt="">
 
-                    <img class="service__img service__img_germany" src="https://movehome.eu/wp-content/uploads/2020/12/32112-300x300.png" alt="">
+                    <img class="service__img service__img_germany" src="https://movehome.eu/wp-content/uploads/2021/01/avstriya-300x140.png" alt="">
                 </div>
                 <div class="service__item">
                     <h2 class='main-h2 main-h2_white'>
                         ОБСЛУЖИВАЕМ ВСЕ
-                        ГОРОДА ГЕРМАНИИ И РОССИИ
+                        ГОРОДА Австрии И РОССИИ
                     </h2>
                     <img class="service__pc-arrow" src="https://movehome.eu/wp-content/uploads/2020/12/liness-300x189.png" alt="">
                 </div>
@@ -390,11 +393,11 @@ get_header();
             <div class="text-left__row">
                 <div class="text-left__item">
                     <h2 class="sub-h2">
-                        ОРГАНИЗАЦИЯ ЗАКУПКИ ТОВАРА В ГЕРМАНИИ И В РОССИИ
+                        ОРГАНИЗАЦИЯ ЗАКУПКИ ТОВАРА В Австрии И В РОССИИ
                     </h2>
                     <p class="text-left__text">
                         <span>
-                            Компания «Move Home» осуществляет комплекс услуг по закупке и оплате товаров у немецких и
+                            Компания «MoveHome» осуществляет комплекс услуг по закупке и оплате товаров у австрийских и
                             российских
                             производителей.
                         </span>
@@ -402,22 +405,22 @@ get_header();
                         <span class="text-p">
                             Наши торговые компании при необходимости могут заключить договоры и контракты на закупку
                             импортных
-                            товаров, а так же выступить Вашим официальным представителем и контракт держателем для
+                            товаров, а также выступить Вашим официальным представителем и контракт-держателем для
                             поставки
                             груза.
                         </span>
 
                         <span class="text-p">
-                            Так же при необходимости мы возьмем на себя всё общение и с импортными поставщиками и
+                            Также при необходимости мы возьмем на себя всё общение  с импортными поставщиками и
                             производителями, разместим необходимые Вам заказы, сформируем коммерческие предложения и
                             предоставим
-                            прайс листы на интересующую Вас продукцию. При комплексной поставке товаров мы
+                            прайс-листы на интересующую Вас продукцию. При комплексной поставке товаров мы
                             проконсультируем
                             и
-                            поможем Вам решить задачи с возмещением НДС (налог на добавленную стоимость) в РФ и VAT(
+                            поможем Вам решить задачи с возмещением НДС (налог на добавленную стоимость) в РФ и VAT  (
                             налог
                             на
-                            добавленную стоимость) в Германии.
+                            добавленную стоимость) в Австрии.
                         </span>
                     </p>
                 </div>
@@ -441,18 +444,18 @@ get_header();
                 </div>
                 <div class="text-right__item">
                     <h2 class="sub-h2 sub-h2_white">
-                        ТАМОЖЕННОЕ ОФОРМЛЕНИЕ В ГЕРМАНИИ
+                        ТАМОЖЕННОЕ ОФОРМЛЕНИЕ В Австрии и России
                     </h2>
                     <p class="text-right__text">
                         <span>
-                            Компания Move Home помогает с таможенным оформлением в Германии. Имеем возможность оформлять
+                            Компания MoveHome помогает с таможенным оформлением в Австрии. Мы имеем возможность оформлять
                             все необходимые таможенные документы и экспортные декларации для отправки грузов за пределы
-                            Германии.
+                            Австрии.
                         </span>
 
                         <span class="text-p">
-                            А так же, для оформления таможенных процедур (импортные декларации) на грузы
-                            пришедшие в Германию из третьих стран: Китай, Америка, Россия и прочие страны не входящие в
+                            А также, для оформления таможенных процедур (импортные декларации) на грузы
+                            пришедшие в Австрию из третьих стран: Китай, Америка, Россия и прочие страны, не входящие в
                             состав Европейского союза.
                         </span>
                     </p>
@@ -551,13 +554,13 @@ get_header();
         </h2>
 
 
-        <?php echo do_shortcode('[testimonial_view id="3"]') ?>
+        <?php echo do_shortcode('[testimonial_view id="5"]') ?>
 
 
         <div id="app-accord" class="">
             <accordion title="Оставить отзыв">
                 <div class="reviews">
-                    <?php echo do_shortcode('[testimonial_view id="1"]') ?>
+                    <?php echo do_shortcode('[testimonial_view id="4"]') ?>
                 </div>
             </accordion>
         </div>
@@ -580,7 +583,7 @@ get_header();
                     <h2 class="sub-h2">
                         БЕСПЛАТНЫЙ РАСЧЕТ СТОИМОСТИ
                     </h2>
-                    <?php echo do_shortcode('[contact-form-7 id="10794" title="Запрос - Расчет стоимости перевозки + имя / тел"]') ?>
+                    <?php echo do_shortcode('[contact-form-7 id="12974" title="страны нижняя форма"]') ?>
 
                 </div>
             </div>
@@ -596,7 +599,7 @@ get_header();
             <div class="footer-content__row">
                 <div class="footer-content__item">
                     <p>
-                        <span class="bold">Move Home</span> – это международная транспортная компания которая занимается
+                        <span class="bold">MoveHome</span> – это международная транспортная компания, которая занимается
                         таможенным оформлением и
                         доставкой грузов по всему миру.
                     </p>
@@ -604,7 +607,7 @@ get_header();
                         <span class="bold">Секрет нашего успеха прост</span>: сделать выгодное ценовое предложение и не
                         подводить заказчика по
                         срокам. Мы внимательны к своим клиентам и их имуществу, мы требовательны к своим сотрудникам.
-                        <span class="bold">Наши сотрудники, не просто брокеры и логисты, а настоящие специалисты своего
+                        <span class="bold">Наши сотрудники не просто брокеры и логисты, а настоящие специалисты своего
                             дела</span>, поэтому
                         заказчики высоко оценивают нашу работу и при появлении задач обращаются к нам снова.
                     </p>
@@ -612,9 +615,9 @@ get_header();
                 <div class="footer-content__item footer-contacts">
                     <div class="footer-contacts__item">
                         <h3 class="footer-contacts__title">
-                            Офис в Германии
+                            Офис в Австрии
                         </h3>
-                        James-Franck-Straße 17, 12489 Berlin
+                        Etzelshofen 14, 4975 Etzelshofen
                     </div>
                     <div class="footer-contacts__item">
                         <h3 class="footer-contacts__title">
@@ -626,10 +629,14 @@ get_header();
                 </div>
             </div>
 
+            
+            
             <div class="footer-content__row">
                 <div class="footer-content__item footer-content__item_confed">
                     <div class="footer-confed">
                         <a class="footer-confed__link" href="https://movehome.eu/privacy/"><span>Политика конфендциальности</span></a>
+                        <a class="footer-confed__link" href="https://movehome.eu/politika-ispolzovaniya-cookie-fajlov/"><span>Политика использования cookie-файлов</span></a>
+                        <a class="footer-confed__link" href="https://movehome.eu/politika-bezopasnosti-veb-sajta/"><span>Политика безопасности</span></a>
                         <a class="footer-confed__link" href="https://movehome.eu/termsofuse/"><span>Пользовательское соглашение</span></a>
                     </div>
                 </div>
@@ -638,10 +645,10 @@ get_header();
                         <div class="footer-social">
                             <div class="footer-social__item">
                                 <a href="https://www.facebook.com/movehome.eu">
-                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                    <i class="fab fa-facebook"></i>
                                 </a>
                             </div>
-                            <div class="footer-social__item">
+                            <!-- <div class="footer-social__item">
                                 <a href="https://ok.ru/movehome">
                                     <i class="fab fa-odnoklassniki" aria-hidden="true"></i>
                                 </a>
@@ -656,7 +663,7 @@ get_header();
                                 <a href="https://vk.com/movehome">
                                     <i class="fab fa-vk" aria-hidden="true"></i>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="footer-phone-mail">
                             <a class="footer-phone-mail__link" href="mailto:info@movehome.eu">
@@ -678,6 +685,27 @@ get_header();
         </div>
     </div>
 </footer>
+
+
+<script>
+    document.addEventListener('wpcf7mailsent', function sendMail(event) {
+        if ('12973' == event.detail.contactFormId) {
+            //yandex
+
+            yaCounter56897875.reachGoal('austriaTop')
+
+
+            console.log('Good Goal Top');
+        }
+        if ('12974' == event.detail.contactFormId) {
+            //yandex
+
+            yaCounter56897875.reachGoal('austriaBottom')
+
+            console.log('Good Goal Bottom');
+        }
+    }, false);
+</script>
 
 
 

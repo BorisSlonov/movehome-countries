@@ -1,6 +1,6 @@
 <?php
 /*
-*  Template Name: page-germany
+*  Template Name: page-cyprus
 */
 
 ?>
@@ -10,7 +10,7 @@ get_header();
 ?>
 
 
-<section class="section-first-screen section-first-screen_germany">
+<section class="section-first-screen">
     <svg class="first-screen-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
         <path class="elementor-shape-fill"
             d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
@@ -24,14 +24,14 @@ get_header();
                     </span>
                     <h1 class="first-screen-text__title">
                         ГРУЗОВЫЕ ПЕРЕВОЗКИ <br>
-                        <span class="sub-color">ГЕРМАНИЯ | РОССИЯ</span>
+                        <span class="sub-color">Кипр | РОССИЯ</span>
                     </h1>
                     <div class="first-screen-text__countries first-countries">
                         <span class="first-countries__row">Доставляем груз: </span>
 
-                        <span class="first-countries__row">из <span class="sub-color underline">Германии</span> в Россию;</span>
+                        <span class="first-countries__row">из <span class="sub-color underline">Кипра</span> в Россию;</span>
 
-                        <span class="first-countries__row">из России в <span class="sub-color underline">Германию</span>;</span>
+                        <span class="first-countries__row">из России на <span class="sub-color underline">Кипр</span>;</span>
 
                         <span class="first-countries__row">Работаем со всеми городами!</span>
                     </div>
@@ -44,7 +44,7 @@ get_header();
                     </a>
                 </div>
                 <div class="first-screen__item first-screen-img">
-                <img src="https://movehome.eu/wp-content/uploads/2020/06/germaniya.png" alt="">
+                <img src="https://movehome.eu/wp-content/uploads/2020/08/car-kipr.png" alt="">
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@ get_header();
                         посылки
                     </a>
                     <p class="our-services__text">
-                        Сервис для отправки посылок и товаров из интернет-магазина для себя и своих близких в Германию
+                        Сервис для отправки посылок и товаров из интернет-магазина для себя и своих близких на Кипр
                         или в Россию. Просчитаем вам самые сложные товарные группы, за которые не берутся другие
                         компании.
                     </p>
@@ -79,7 +79,7 @@ get_header();
                         переезды
                     </a>
                     <p class="our-services__text">
-                        Люди стали чаще переезжать в поисках лучшей жизни, и наша команда в Германии разработала выгодный
+                        Люди стали чаще переезжать в поисках лучшей жизни, и наша команда на Кипре разработала выгодный
                         тарифный план, где таможенные платежи и логистика будут рассматриваться индивидуально.
                     </p>
                 </div>
@@ -91,7 +91,7 @@ get_header();
                         коммерция
                     </a>
                     <p class="our-services__text">
-                        Экспресс-доставка грузов для бизнеса. Германия - популярная страна для покупки товаров от текстиля
+                        Экспресс-доставка грузов для бизнеса. Кипр - популярная страна для покупки товаров от текстиля
                         до
                         химии. Доставка до двери от 5 евро за килограмм и сроком до 7 дней.
                     </p>
@@ -143,8 +143,8 @@ get_header();
                         alt="">
                 </div>
                 <div class="page-video__item">
-                    <a data-fancybox  href="https://www.youtube.com/watch?v=3cdijN4TY8w" class="video-link">
-                        <img src="https://movehome.eu/wp-content/uploads/2021/01/mocgermany-1.png" alt="">
+                    <a data-fancybox  href="https://www.youtube.com/watch?v=w0IDsEus_0A" class="video-link">
+                        <img src="https://movehome.eu/wp-content/uploads/2021/01/mokap_kipr.png" alt="">
                         <img class="video-link__icon"
                             src="https://movehome.eu/wp-content/uploads/2021/01/play-button-2.svg" alt="">
                     </a>
@@ -368,12 +368,12 @@ get_header();
                 <div class="service__item">
                     <img class="service__mob-arrow" src="https://movehome.eu/wp-content/uploads/2020/12/liness-300x189.png" alt="">
 
-                    <img class="service__img service__img_germany" src="https://movehome.eu/wp-content/uploads/2020/12/32112-300x300.png" alt="">
+                    <img class="service__img service__img_germany" src="https://movehome.eu/wp-content/uploads/2021/01/kipr.png" alt="">
                 </div>
                 <div class="service__item">
                     <h2 class='main-h2 main-h2_white'>
                         ОБСЛУЖИВАЕМ ВСЕ
-                        ГОРОДА ГЕРМАНИИ И РОССИИ
+                        ГОРОДА Кипра И РОССИИ
                     </h2>
                     <img class="service__pc-arrow" src="https://movehome.eu/wp-content/uploads/2020/12/liness-300x189.png" alt="">
                 </div>
@@ -390,11 +390,11 @@ get_header();
             <div class="text-left__row">
                 <div class="text-left__item">
                     <h2 class="sub-h2">
-                        ОРГАНИЗАЦИЯ ЗАКУПКИ ТОВАРА В ГЕРМАНИИ И В РОССИИ
+                        ОРГАНИЗАЦИЯ ЗАКУПКИ ТОВАРА на Кипре И В РОССИИ
                     </h2>
                     <p class="text-left__text">
                         <span>
-                            Компания «MoveHome» осуществляет комплекс услуг по закупке и оплате товаров у немецких и
+                            Компания «MoveHome» осуществляет комплекс услуг по закупке и оплате товаров у кипрских и
                             российских
                             производителей.
                         </span>
@@ -417,7 +417,7 @@ get_header();
                             поможем Вам решить задачи с возмещением НДС (налог на добавленную стоимость) в РФ и VAT  (
                             налог
                             на
-                            добавленную стоимость) в Германии.
+                            добавленную стоимость) на Кипре.
                         </span>
                     </p>
                 </div>
@@ -441,18 +441,18 @@ get_header();
                 </div>
                 <div class="text-right__item">
                     <h2 class="sub-h2 sub-h2_white">
-                        ТАМОЖЕННОЕ ОФОРМЛЕНИЕ В ГЕРМАНИИ и России
+                        ТАМОЖЕННОЕ ОФОРМЛЕНИЕ на Кипре и в России
                     </h2>
                     <p class="text-right__text">
                         <span>
-                            Компания MoveHome помогает с таможенным оформлением в Германии. Мы имеем возможность оформлять
+                            Компания MoveHome помогает с таможенным оформлением на Кипре. Мы имеем возможность оформлять
                             все необходимые таможенные документы и экспортные декларации для отправки грузов за пределы
-                            Германии.
+                            Кипра.
                         </span>
 
                         <span class="text-p">
                             А также, для оформления таможенных процедур (импортные декларации) на грузы
-                            пришедшие в Германию из третьих стран: Китай, Америка, Россия и прочие страны, не входящие в
+                            пришедшие на Кипр из третьих стран: Китай, Америка, Россия и прочие страны, не входящие в
                             состав Европейского союза.
                         </span>
                     </p>
@@ -551,13 +551,13 @@ get_header();
         </h2>
 
 
-        <?php echo do_shortcode('[testimonial_view id="3"]') ?>
+        <?php echo do_shortcode('[testimonial_view id="24"]') ?>
 
 
         <div id="app-accord" class="">
             <accordion title="Оставить отзыв">
                 <div class="reviews">
-                    <?php echo do_shortcode('[testimonial_view id="1"]') ?>
+                    <?php echo do_shortcode('[testimonial_view id="25"]') ?>
                 </div>
             </accordion>
         </div>
@@ -612,9 +612,9 @@ get_header();
                 <div class="footer-content__item footer-contacts">
                     <div class="footer-contacts__item">
                         <h3 class="footer-contacts__title">
-                            Офис в Германии
+                            Офис на Кипре
                         </h3>
-                        James-Franck-Straße 17, 12489 Berlin
+                        2 Orestou street, 4186, Ypsonas
                     </div>
                     <div class="footer-contacts__item">
                         <h3 class="footer-contacts__title">
@@ -685,7 +685,7 @@ get_header();
         if ('12973' == event.detail.contactFormId) {
             //yandex
 
-            yaCounter56897875.reachGoal('germanyTop')
+            yaCounter56897875.reachGoal('cyprusTop')
 
 
             console.log('Good Goal Top');
@@ -693,12 +693,13 @@ get_header();
         if ('12974' == event.detail.contactFormId) {
             //yandex
 
-            yaCounter56897875.reachGoal('germanyBottom')
+            yaCounter56897875.reachGoal('cyprusBottom')
 
             console.log('Good Goal Bottom');
         }
     }, false);
 </script>
+
 
 
 <?php
