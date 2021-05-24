@@ -2173,6 +2173,9 @@ input[type="submit"]:active {
   padding: 40px 0;
   background-color: #fff;
   background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/sloi_34.jpg);
+  background-size: cover;
+  background-position: 50% bottom;
+  background-repeat: no-repeat;
 }
 
 .dress-popup__body .finance__item {
