@@ -555,13 +555,21 @@ get_header();
         <?php echo do_shortcode('[testimonial_view id="60"]') ?>
 
 
+
+
         <div id="app-accord" class="">
-            <accordion title="Оставить отзыв">
+                <div class="accord-btn">
+                    <span>
+                        Оставить отзыв
+                    </span>
+                    <span>
+                        <i class="far fa-caret-square-down"></i>
+                    </span>
+                </div>
                 <div class="reviews">
                     <?php echo do_shortcode('[testimonial_view id="61"]') ?>
                 </div>
-            </accordion>
-        </div>
+            </div>
 
     </div>
 </section>

@@ -25,8 +25,8 @@ img {
     position: relative;
     text-align: center;
     margin-bottom: 2rem;
-    color: $main-blue !important;
     font-size: 2rem !important;
+    color: #1F2654 !important;
     // &::after {
     //     content: '';
     //     position: absolute;
@@ -59,12 +59,17 @@ img {
 
 }
 
+input,
+textarea {
+    border-radius: 10px !important;
+}
+
 @media(max-width:550px) {
     .main-h2 {
-        font-size: 1.4rem !important;
+        font-size: 1.8rem !important;
     }
     .sub-h2 {
-        font-size: 1.4rem !important;
+        font-size: 1.8rem !important;
     }
     .d-none550 {
         display: none;

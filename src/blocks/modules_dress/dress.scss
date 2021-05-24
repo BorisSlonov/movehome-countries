@@ -1,0 +1,1464 @@
+.section-page1 {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/itog-mashina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    min-height: 85vh;
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+@media(max-width:1240px) {
+    .section-page1 {
+        background-position: 50% 80px;
+    }
+}
+
+.page1 {
+    margin-top: 200px;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__h1 {
+        padding-top: 40px;
+        font-size: 2rem !important;
+        line-height: 1.3 !important;
+        color: #1F2654 !important;
+    }
+
+    &__descr {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        color: #1F2654;
+        font-family: "Montserrat", Sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .section-page1 {
+        background-position: center 100px;
+    }
+
+    .sub-header-dress__item:last-child {
+        margin-top: 0 !important;
+    }
+
+    .page1 {
+        margin-top: 130px;
+    }
+}
+
+
+@media(max-width:550px) {
+    .section-page1 {
+        background-position: 30% 80px;
+        min-height: 100vh;
+    }
+}
+
+
+@media(max-width:425px) {
+    .page1__h1 {
+        font-size: 20px;
+
+    }
+
+    .page1__descr {
+        font-size: 14px;
+
+    }
+
+
+
+}
+
+//dress
+
+
+.page-form__img_dress {
+    max-width: 400px;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.dress-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -45px;
+
+    &__item {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(204, 204, 204, 0.635);
+        border-radius: 10px;
+        padding: 15px 30px;
+        text-decoration: none;
+        color: rgb(31, 38, 84);
+        background-color: #fff;
+        transition: all .3s;
+
+        &:hover {
+            background-color: #1F2654;
+            color: #fff !important;
+        }
+
+    }
+
+    &__item:not(:first-child) {
+        margin-left: 20px;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        line-height: 1.5;
+        font-size: 18px;
+
+        span:last-child {
+            color: rgb(254, 153, 52);
+            text-transform: uppercase;
+
+        }
+    }
+
+
+    svg {
+        fill: rgb(254, 153, 52);
+    }
+}
+
+@media(max-width:1120px) {
+    .dress-nav {
+        &__item {
+            padding: 15px 10px;
+        }
+
+        &__item:not(:first-child) {
+            margin-left: 10px;
+        }
+
+        &__text {
+            font-size: 13px;
+
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .dress-nav {
+        display: none;
+    }
+}
+
+.sub-h2_dress {
+    color: #1F2654 !important;
+}
+
+
+//dress-services
+
+
+.section-dress-services {
+    padding: 80px 0;
+    background-color: #F7F8FB;
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/karta-rossii.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.dress-services__body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #1F2654;
+}
+
+.dress-services__item {
+    flex-basis: 25%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 15px;
+    background-color: rgba(255, 255, 255, 0.724);
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px rgba(204, 204, 204, 0.409);
+
+    div:last-child {
+        margin-top: auto;
+    }
+
+    .main-btn {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 1px;
+        font-size: 14px;
+    }
+}
+
+
+.dress-services__item {
+    svg {
+        width: 60px;
+        height: 60px;
+        fill: #fe8001;
+        margin-bottom: 20px;
+    }
+}
+
+.dress-services__item:not(:first-child) {
+    margin-left: 15px;
+}
+
+.logistic__h2,
+.dress-services__h2 {
+    text-align: center;
+    font-size: 1.8rem !important;
+    text-transform: uppercase;
+}
+
+.logistic__sub-h2 {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logistic__descr,
+.dress-services__descr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: #1F2654;
+    max-width: 85%;
+    line-height: 1.5;
+}
+
+.dress-services__h3 {
+    color: #FE9934 !important;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    line-height: 1.3 !important;
+}
+
+.dress-services__text {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.logistic__p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.dress-services__price {
+    display: inline-block;
+    color: #FE9934;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+@media(max-width:1020px) {
+    .dress-services__body {
+        flex-wrap: wrap;
+    }
+
+    .dress-services__item {
+        flex-basis: calc(50% - 45px);
+    }
+
+
+
+    .dress-services__item {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .dress-services__item:not(:first-child) {
+        margin-left: 0;
+    }
+
+
+    .dress-services__item {
+
+
+        div:last-child {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .dress-services__item {
+        flex-basis: 100%
+    }
+}
+
+
+
+//section-logistic
+
+.section-logistic {
+    padding: 80px 0;
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/gorod-1-1.jpg);
+    background-size: cover;
+    background-position: 50% bottom;
+}
+
+.logistic__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logistic__item {
+    flex-basis: calc(50% - 40px);
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 2px rgba(204, 204, 204, 0.409);
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logistic__h3 {
+    color: #FE9934 !important;
+    font-size: 1.3rem !important;
+}
+
+.logistic__img {
+    flex-basis: 30%;
+}
+
+.logistic__text {
+    flex-basis: 60%;
+    margin-left: 15px;
+    color: #1F2654;
+    line-height: 1.5;
+}
+
+
+@media(max-width:1024px) {
+    .logistic__img {
+        flex-basis: 30%;
+    }
+
+    .logistic__text {
+        flex-basis: 70%;
+    }
+}
+
+
+@media(max-width:768px) {
+    .logistic__body {
+        flex-direction: column;
+    }
+
+
+    .logistic__item:not(:first-child) {
+        margin-top: 20px;
+    }
+}
+
+
+
+//provider 
+
+.section-provider {
+    padding: 80px 0;
+    background-color: #F7F8FB;
+}
+
+.provider__row {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.provider__item {
+    flex-basis: 33.333%;
+}
+
+
+.provider__item:nth-child(2) {
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.provider-item {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 0 0 8px 2px rgba(204, 204, 204, 0.409);
+
+
+    svg {
+        flex-shrink: 0;
+        width: 50px;
+        height: 50px;
+        fill: #FE9934;
+
+
+    }
+}
+
+.provider-item:not(:first-child) {
+    margin-top: 20px;
+}
+
+.provider-item__h3 {
+    color: #FE9934 !important;
+    line-height: 1.3 !important;
+    font-size: 1.3rem !important;
+}
+
+.provider-item__p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.provider-item__text {
+    margin-left: 10px;
+}
+
+.provider__btn {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width:1023px) {
+
+    .provider__row {
+        flex-direction: column;
+    }
+
+    .provider-item:not(:first-child) {
+        margin-top: 30px;
+    }
+
+
+    .provider__item:nth-child(2) {
+        display: none;
+    }
+
+    .provider-item {
+        margin-top: 30px;
+    }
+
+}
+
+@media(max-width:425px) {
+    .provider-item {
+        padding: 30px 15px;
+    }
+
+
+}
+
+
+//finance
+
+.section-finance {
+    padding: 80px 0;
+
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/monety9.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 37% auto;
+}
+
+.finance__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.finance__item {
+    flex-basis: calc(50% - 10px);
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px 15px;
+    color: #fff;
+
+
+
+    svg {
+        width: 80px;
+        height: 80px;
+        fill: #fff;
+    }
+
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.finance__text {
+    margin-left: 20px;
+}
+
+.finance__h3 {
+    color: #fff !important;
+    font-size: 1.3rem !important;
+}
+
+.finance__p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.finance__item:nth-child(1) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/soprovozhenie-sdelki-1.jpg);
+
+}
+
+.finance__item:nth-child(2) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/nalogovoe-planirovanie.jpg);
+
+}
+
+.finance__item:nth-child(3) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/uchet.png);
+
+}
+
+.finance__item:nth-child(4) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/otkrytie-schea1.jpg);
+
+}
+
+.finance__item:nth-child(5) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/registracziya-i-likvidacziya.jpg);
+
+}
+
+.finance__item:nth-child(6) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/valyutnaya-operacziya2.jpg);
+
+}
+
+.finance__item:nth-child(7) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/izmeneniya2.jpg);
+
+}
+
+.finance__item:nth-child(8) {
+    background-image: url(https://movehome.eu/wp-content/uploads/2021/04/kadrovoe-deloproizvodstvo8.jpg);
+
+}
+
+@media(max-width:768px) {
+    .finance__body {
+        flex-direction: column;
+    }
+
+    .finance__item:nth-child(4) {
+        order: 3;
+    }
+
+    .finance__item:nth-child(3) {
+        order: 4;
+    }
+
+    .finance__item:nth-child(8) {
+        order: 5;
+    }
+}
+
+
+@media(max-width:375px) {
+    .finance__item svg {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+
+
+
+
+//header-dress
+
+.header-dress-container {
+    position: relative;
+}
+
+.header-dress {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 50;
+    text-align: center;
+    transition: all .3s;
+    background-color: darken(#006ba1, 15%);
+
+
+
+    &__body {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .25rem 0;
+
+    }
+
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        user-select: none;
+        transition: all .35s;
+        margin-bottom: 4px;
+
+
+    }
+
+    &__logo:hover {
+        letter-spacing: 1px;
+    }
+
+    &__logo-name {
+        font-family: "Pacifico", cursive;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    &__logo-sub-name {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+
+    &__logo-img {
+        margin-right: auto;
+    }
+
+    &__menu {
+        width: 100%;
+        flex-basis: 80%;
+
+        margin-left: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-basis: 100%;
+        list-style: none;
+
+    }
+
+    &__link {
+        height: 100%;
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: Montserrat, sans-serif;
+        text-decoration: none;
+        transition: all .45s;
+        text-transform: uppercase;
+        color: #fff !important;
+
+        span {
+            display: block;
+            padding: 25px 0;
+            height: 100%;
+            line-height: 1;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+        }
+
+
+
+    }
+
+    &__burger {
+        display: none;
+    }
+
+
+
+}
+
+
+
+.colorBrLignt {
+    opacity: .7;
+    margin: 0 5px;
+}
+
+
+
+.header-dress__logo-name {
+    display: block;
+
+    img {
+        width: 100%;
+        max-width: 160px;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+
+    .header-dress__list {
+        position: fixed;
+        z-index: 1000;
+        transition: .8s;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        padding: 20px 15px;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow: auto;
+        background-color: #006ba1;
+    }
+
+
+    .header-dress__list li:last-child {
+        margin-bottom: 100px;
+    }
+
+    .login-icon {
+        margin-left: 0;
+        margin-right: 45px;
+        margin-bottom: 0;
+
+        :hover {
+            filter: url("../img/icon/login.svg#login-filter");
+            // filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.25));
+        }
+    }
+
+
+
+
+
+
+    .header-dress__menu {
+        justify-content: flex-end;
+    }
+
+    .menu_active {
+        right: 0;
+        padding-top: 120px;
+    }
+
+    .header-dress__burger {
+        display: block;
+        position: absolute;
+        right: 0;
+        margin-left: auto;
+        z-index: 1100;
+        width: 40px;
+    }
+
+    .header-dress__burger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .header-dress__burger span:not(first-child) {
+        margin-top: 5px;
+    }
+
+    .burger_active span {
+        margin-bottom: -10px;
+        transition: all .3s;
+    }
+
+    .burger_active span:nth-child(1) {
+        transform: rotate(-45deg);
+    }
+
+    .burger_active span:nth-child(2) {
+        display: none;
+    }
+
+    .burger_active span:nth-child(3) {
+        transform: rotate(45deg);
+        margin-top: 8px;
+    }
+}
+
+.link-hover {
+    position: relative;
+    display: block;
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 4px;
+        bottom: -4px;
+        transform: scale(0);
+        transition: all .25s;
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        &::after {
+            transform: scale(1);
+        }
+    }
+}
+
+
+@media(max-width: 420px) {
+    .header-dress__logo {
+        flex-basis: 40%;
+    }
+}
+
+.header-dress.out {
+    transform: translateY(-100%);
+}
+
+
+
+//sub-header-dress
+
+.sub-header-dress-section {
+    background-color: #006ba1;
+
+}
+
+.sub-header-dress {
+    max-height: 100px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sub-header-dress__item a {
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .3s;
+
+}
+
+
+.sub-header-dress__link {
+    color: #fff !important;
+}
+
+.footer-social__link {
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+@media(max-width:700px) {
+    .sub-header-dress {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sub-header-dress__item:first-child span:first-child {
+        display: none;
+    }
+
+    .sub-header-dress__item:last-child {
+        margin-top: 20px !important;
+    }
+
+
+}
+
+@media(max-width:550px) {
+    .sub-header-dress {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sub-header-dress__item:first-child {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sub-header-dress__item:first-child span:last-child {
+        margin-top: 0;
+    }
+}
+
+
+@media(max-width:425px) {
+    .footer-social__item_mob-hidden {
+        display: none;
+    }
+}
+
+.message {
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+
+
+//advantages 
+
+
+.section-our-advantages {
+    padding: 80px 0;
+}
+
+.our-advantages__row {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width:768px) {
+    .our-advantages__row {
+        flex-direction: column;
+    }
+
+    .our-advantages__item:first-child {
+        display: none;
+    }
+}
+
+
+
+.our-advantages__item:first-child {
+    flex-basis: 30%
+}
+
+.our-advantages__item:last-child {
+    flex-basis: 70%
+}
+
+.advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.advantages-item {
+    flex-basis: calc(50% - 20px);
+
+    display: flex;
+    align-items: stretch;
+
+    svg {
+        width: 80px;
+        height: 80px;
+        fill: #fff;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px 20px 15px;
+        background-color: #FFFFFF;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 0px 0px 10px -1px #ccc;
+        margin-top: 20px;
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+}
+
+.our-advantages__h3 {
+
+    color: #1f2654 !important;
+    font-size: 1.8rem !important;
+}
+
+.our-advantages__descr {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.advantages-item__item:last-child {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+}
+
+
+
+@media(max-width:650px) {
+
+    .advantages-list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .advantages-item {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .advantages-item__item:last-child {
+        width: 100%;
+    }
+
+    .advantages-item svg {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .advantages-item:nth-child(3) {
+        .advantages-item__item_yellow {
+            background-color: #6500FF;
+
+        }
+
+    }
+
+    .advantages-item:nth-child(4) {
+        .advantages-item__item_blue {
+            background-color: #FE9934;
+
+        }
+
+    }
+
+
+}
+
+
+.advantages-item__item_blue {
+    background-color: #6500FF;
+}
+
+
+.advantages-item__item_yellow {
+    background-color: #FE9934;
+}
+
+
+
+// accodion 
+
+.reviews {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accord-btn {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    background-color: #fe8001 !important;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+
+
+
+
+//insurance 
+
+.section-insurance {
+    padding: 60px 0;
+    background-color: #F7F8FB;
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/fff-city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10px;
+}
+
+.insurance {
+    margin-top: 40px;
+}
+
+.insurance__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.insurance__item {
+    flex-basis: calc(50% - 20px);
+
+    background-color: #fff;
+    box-shadow: 0 0 4px 1px rgba(204, 204, 204, 0.3);
+    padding: 40px 20px;
+    border-radius: 10px;
+
+    svg {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.insurance__item:last-child {
+    margin-left: 40px;
+}
+
+.insurance-item {
+    display: flex;
+    align-items: center;
+
+
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.insurance-item__item:last-child {
+    margin-left: 15px;
+
+}
+
+.insurance__h3 {
+    color: #FE9934 !important;
+    font-size: 1.3rem !important;
+    text-transform: uppercase;
+}
+
+
+@media(max-width:768px) {
+    .insurance__row {
+        flex-direction: column;
+    }
+
+    .insurance__item {
+
+        svg {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .insurance__item:last-child {
+        margin-left: 0;
+    }
+
+    .insurance__item:last-child {
+        margin-top: 20px;
+    }
+}
+
+
+// insurance-sub
+
+.insurance-sub {
+    display: flex;
+    margin-top: 40px;
+
+    svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    &__item {
+        flex-basis: 33.333%;
+        background-color: #6600ff;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        padding: 30px 20px;
+        line-height: 1.5;
+
+    }
+
+    &__item:not(:first-child) {
+        margin-left: 20px;
+    }
+}
+
+.insurance-sub__icon-wrap {
+    margin-right: 10px;
+}
+
+@media(max-width:768px) {
+    .insurance-sub {
+        flex-direction: column;
+        margin-top: 20px;
+
+        &__item {
+            padding: 15px 10px;
+        }
+
+        &__item:not(:first-child) {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    }
+
+
+}
+
+
+
+//section-warehouse
+
+.section-warehouse {
+    padding: 60px 0;
+}
+
+
+.warehouse__body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+.warehouse__item {
+    flex-basis: calc(33.333% - 10px);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 40px 15px;
+    color: #fff;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+}
+
+.warehouse__img {
+    svg {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+.warehouse__h3 {
+    color: #fff !important;
+    font-size: 1.3rem !important;
+    text-transform: uppercase;
+}
+
+
+.warehouse__text {
+    margin-left: 20px;
+}
+
+
+.warehouse__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media(max-width:768px) {
+    .warehouse__item {
+        flex-basis: calc(50% - 20px);
+    }
+
+    .warehouse__img {
+        svg {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .warehouse__body {
+        flex-direction: column;
+    }
+}
+
+.warehouse__item:nth-child(1) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/1.png);
+}
+
+.warehouse__item:nth-child(2) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/2.png);
+}
+
+.warehouse__item:nth-child(3) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/3.png);
+}
+
+.warehouse__item:nth-child(4) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/4.png);
+}
+
+.warehouse__item:nth-child(5) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/5.png);
+}
+
+.warehouse__item:nth-child(6) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/6.png);
+}
+
+.warehouse__item:nth-child(7) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/7.png);
+}
+
+.warehouse__item:nth-child(8) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/8.png);
+}
+
+.warehouse__item:nth-child(9) {
+    background-image: url(https://dress.movehome.eu/wp-content/uploads/sites/5/2021/05/9.png);
+}
+
+//example 
+
+.section-example {
+    padding: 60px 0;
+}
+
+.example {
+    margin-top: 40px;
+}
+
+.example__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.example__item {
+    position: relative;
+    flex-basis: calc(50% - 10px);
+
+}
+
+.example__item_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    img {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        border-radius: 10px;
+        object-fit: cover;
+
+    }
+}
+
+.example-item {
+    color: #fff;
+
+    &__item {
+        background-color: #1f2654;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    p {
+        line-height: 1.75;
+        margin: 0 !important;
+    }
+
+
+}
+
+
+.example-item__item:last-child {
+    margin-top: 20px;
+}
+
+.example__name {
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.example-item__h3 {
+    color: #fff !important;
+    font-size: 1.4rem !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:768px) {
+    .example__row {
+        flex-direction: column;
+    }
+
+    .example__item:last-child {
+        display: none;
+    }
+}

@@ -12,8 +12,7 @@ get_header();
 
 <section class="section-first-screen">
     <svg class="first-screen-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-        <path class="elementor-shape-fill"
-            d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
+        <path class="elementor-shape-fill" d="M500,97C126.7,96.3,0.8,19.8,0,0v100l1000,0V1C1000,19.4,873.3,97.8,500,97z"></path>
     </svg>
     <div class="container">
         <div class="first-screen">
@@ -44,19 +43,19 @@ get_header();
                     </a>
                 </div>
                 <div class="first-screen__item first-screen-img">
-                <img src="https://movehome.eu/wp-content/uploads/2020/08/car-kipr.png" alt="">
+                    <img src="https://movehome.eu/wp-content/uploads/2020/08/car-kipr.png" alt="">
                 </div>
             </div>
         </div>
     </div>
 </section>
-    <section class="section-our-services">
+<section class="section-our-services">
     <div class="container">
         <div class="our-services">
             <h2 class="main-h2 main-h2_services">
                 НАШИ УСЛУГИ
             </h2>
-           
+
             <div class="our-services__row">
                 <div class="our-services__item">
                     <div class="our-services__icon">
@@ -101,7 +100,7 @@ get_header();
     </div>
 </section>
 
-    
+
 <div class="container">
     <div class="section-divider"></div>
 </div>
@@ -128,7 +127,7 @@ get_header();
 <div class="container">
     <div class="section-divider"></div>
 </div>
-    <section class="section-page-video">
+<section class="section-page-video">
     <div class="container">
         <div class="page-video">
             <div class="page-video__row">
@@ -139,14 +138,12 @@ get_header();
                     <span class="page-video__sub-title">
                         Посмотрите видео о наших услугах
                     </span>
-                    <img class="video-arrow" src="https://movehome.eu/wp-content/uploads/2020/12/32423432-150x150.png"
-                        alt="">
+                    <img class="video-arrow" src="https://movehome.eu/wp-content/uploads/2020/12/32423432-150x150.png" alt="">
                 </div>
                 <div class="page-video__item">
-                    <a data-fancybox  href="https://www.youtube.com/watch?v=w0IDsEus_0A" class="video-link">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=w0IDsEus_0A" class="video-link">
                         <img src="https://movehome.eu/wp-content/uploads/2021/01/mokap_kipr.png" alt="">
-                        <img class="video-link__icon"
-                            src="https://movehome.eu/wp-content/uploads/2021/01/play-button-2.svg" alt="">
+                        <img class="video-link__icon" src="https://movehome.eu/wp-content/uploads/2021/01/play-button-2.svg" alt="">
                     </a>
                 </div>
             </div>
@@ -159,7 +156,7 @@ get_header();
 </div>
 
 
-    <section class="popular-shops">
+<section class="popular-shops">
     <h2 class="main-h2">
         ДОСТАВЛЯЕМ ИЗ ПОПУЛЯРНЫХ ИНТЕРНЕТ-МАГАЗИНОВ
     </h2>
@@ -168,15 +165,14 @@ get_header();
             <div class="shops__row">
                 <div class="shops__item shop">
                     <a class="shop__link" href="https://www.ebay.com/" target="_blank">
-                        <img class="shop__img"
-                            src="https://movehome.eu/wp-content/uploads/2020/12/ebay-e1608067417410.png" alt="">
+                        <img class="shop__img" src="https://movehome.eu/wp-content/uploads/2020/12/ebay-e1608067417410.png" alt="">
                         <span class="shop__img-descr">
                             Ebay
                         </span>
                     </a>
                     <p class="shops__descr">
                         Купить на <a href="https://www.ebay.com/" target="_blank">Ebay</a> можно практически любой
-                        товар, новый или  б/у . Те же онлайн
+                        товар, новый или б/у . Те же онлайн
                         магазины порой продают свою продукцию через eBay (ебей) по ценам ниже, чем в своих магазинах.
                     </p>
                 </div>
@@ -194,8 +190,7 @@ get_header();
                 </div>
                 <div class="shops__item shops__item_amazon shop">
                     <a class="shop__link" href="https://www.avito.ru/rossiya" target="_blank">
-                        <img class="shop__img"
-                            src="https://movehome.eu/wp-content/uploads/2020/12/ebay-e1608067417410.png" alt="">
+                        <img class="shop__img" src="https://movehome.eu/wp-content/uploads/2020/12/ebay-e1608067417410.png" alt="">
                         <span class="shop__img-descr">
                             Avito
                         </span>
@@ -227,7 +222,7 @@ get_header();
 <div class="container">
     <div class="section-divider"></div>
 </div>
-    <section class="section-products" id="section-products">
+<section class="section-products" id="section-products">
     <div class="container">
         <h2 class="main-h2">
             MЫ ДОСТАВЛЯЕМ ТАКИЕ ТОВАРНЫЕ ГРУППЫ
@@ -236,120 +231,88 @@ get_header();
 
         <div class="service-grid">
             <div class="service-grid__row">
-                <div class="service-grid__item wow fadeInUp delay-0_1s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/t-shirt.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_1s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/t-shirt.png" alt="">
                     </div>
                     <div class="service-grid__text">Одежда</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_2s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/shoes.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_2s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/shoes.png" alt="">
                     </div>
                     <div class="service-grid__text">Обувь</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_3s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/chear.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_3s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/chear.png" alt="">
                     </div>
                     <div class="service-grid__text">Мебель</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_4s d-none550"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img
-                            src="https://movehome.eu/wp-content/uploads/2020/05/interier.png" alt=""></div>
+                <div class="service-grid__item wow fadeInUp delay-0_4s d-none550" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/interier.png" alt=""></div>
                     <div class="service-grid__text">Интерьер</div>
                 </div>
             </div>
             <div class="service-grid__row">
-                <div class="service-grid__item wow fadeInUp delay-0_4s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/food.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_4s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/food.png" alt="">
                     </div>
                     <div class="service-grid__text">Еда</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_3s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/battles.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_3s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/battles.png" alt="">
                     </div>
                     <div class="service-grid__text">Напитки</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_2s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/tablets.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_2s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/tablets.png" alt="">
                         <!-- img -->
                         <!-- text -->
                     </div>
                     <div class="service-grid__text">Лекарства</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_1s d-none550"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/animals.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_1s d-none550" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/animals.png" alt="">
                     </div>
                     <div class="service-grid__text">Животные</div>
                 </div>
             </div>
             <div class="service-grid__row">
-                <div class="service-grid__item wow fadeInUp delay-0_1s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/text.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_1s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/text.png" alt="">
                     </div>
                     <div class="service-grid__text">Текстиль</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_2s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img
-                            src="https://movehome.eu/wp-content/uploads/2020/05/furniture.png" alt=""></div>
+                <div class="service-grid__item wow fadeInUp delay-0_2s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/furniture.png" alt=""></div>
                     <div class="service-grid__text">Фурнитура</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_3s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/water.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_3s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/water.png" alt="">
                     </div>
                     <div class="service-grid__text">Сантехника</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_4s d-none550"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/builds.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_4s d-none550" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/builds.png" alt="">
                     </div>
                     <div class="service-grid__text">Стройматериалы</div>
                 </div>
             </div>
             <div class="service-grid__row">
-                <div class="service-grid__item wow fadeInUp delay-0_4s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/gadgets.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_4s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/gadgets.png" alt="">
                     </div>
                     <div class="service-grid__text">Оборудование</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_3s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img
-                            src="https://movehome.eu/wp-content/uploads/2020/05/chemical.png" alt=""></div>
+                <div class="service-grid__item wow fadeInUp delay-0_3s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/chemical.png" alt=""></div>
                     <div class="service-grid__text">Химия</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_2s"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/tools.png"
-                            alt="">
+                <div class="service-grid__item wow fadeInUp delay-0_2s" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/tools.png" alt="">
                     </div>
                     <div class="service-grid__text">Инструменты</div>
                 </div>
-                <div class="service-grid__item wow fadeInUp delay-0_1s d-none550"
-                    style="visibility: visible; animation-name: fadeInUp;">
-                    <div class="service-grid__img"><img
-                            src="https://movehome.eu/wp-content/uploads/2020/05/electrick.png" alt=""></div>
+                <div class="service-grid__item wow fadeInUp delay-0_1s d-none550" style="visibility: visible; animation-name: fadeInUp;">
+                    <div class="service-grid__img"><img src="https://movehome.eu/wp-content/uploads/2020/05/electrick.png" alt=""></div>
                     <div class="service-grid__text">Электроника</div>
                 </div>
             </div>
@@ -361,7 +324,7 @@ get_header();
 <div class="container">
     <div class="section-divider"></div>
 </div>
-    <section class="worldwide-service">
+<section class="worldwide-service">
     <div class="container-fluid">
         <div class="service">
             <div class="service__row">
@@ -384,7 +347,7 @@ get_header();
         </div>
     </div>
 </section>
-    <section class="page-text page-text_left">
+<section class="page-text page-text_left">
     <div class="container">
         <div class="text-left">
             <div class="text-left__row">
@@ -408,13 +371,13 @@ get_header();
                         </span>
 
                         <span class="text-p">
-                            Также при необходимости мы возьмем на себя всё общение  с импортными поставщиками и
+                            Также при необходимости мы возьмем на себя всё общение с импортными поставщиками и
                             производителями, разместим необходимые Вам заказы, сформируем коммерческие предложения и
                             предоставим
                             прайс-листы на интересующую Вас продукцию. При комплексной поставке товаров мы
                             проконсультируем
                             и
-                            поможем Вам решить задачи с возмещением НДС (налог на добавленную стоимость) в РФ и VAT  (
+                            поможем Вам решить задачи с возмещением НДС (налог на добавленную стоимость) в РФ и VAT (
                             налог
                             на
                             добавленную стоимость) на Кипре.
@@ -429,10 +392,10 @@ get_header();
     </div>
 </section>
 
-<div  class="container">
+<div class="container">
     <div class="section-divider"></div>
 </div>
-    <section class="page-text page-text_right">
+<section class="page-text page-text_right">
     <div class="container">
         <div class="text-right">
             <div class="text-right__row">
@@ -466,7 +429,7 @@ get_header();
 <div class="container">
     <div class="section-divider"></div>
 </div>
-    <section class="page-cost">
+<section class="page-cost">
     <div class="container">
         <h2 class="main-h2">
             СТОИМОСТЬ ПЕРЕВОЗКИ ОТ ДВЕРИ ДО ДВЕРИ
@@ -493,7 +456,7 @@ get_header();
                         </div>
                         <div class="cost-table__row">
                             <div class="cost-table__item">
-                                От 20 кг до 200 кг	
+                                От 20 кг до 200 кг
                             </div>
                             <div class="cost-table__item">
                                 5.5 евро за кг
@@ -544,7 +507,7 @@ get_header();
 <div class="container">
     <div class="section-divider"></div>
 </div>
-    <section class="page-reviews" id="otzuvy">
+<section class="page-reviews" id="otzuvy">
     <div class="container">
         <h2 class="main-h2">
             ОТЗЫВЫ НАШИХ КЛИЕНТОВ​
@@ -555,16 +518,22 @@ get_header();
 
 
         <div id="app-accord" class="">
-            <accordion title="Оставить отзыв">
-                <div class="reviews">
-                    <?php echo do_shortcode('[testimonial_view id="25"]') ?>
-                </div>
-            </accordion>
+            <div class="accord-btn">
+                <span>
+                    Оставить отзыв
+                </span>
+                <span>
+                    <i class="far fa-caret-square-down"></i>
+                </span>
+            </div>
+            <div class="reviews">
+                <?php echo do_shortcode('[testimonial_view id="25"]') ?>
+            </div>
         </div>
 
     </div>
 </section>
-    
+
 <div class="container">
     <div class="section-divider"></div>
 </div>
@@ -588,7 +557,7 @@ get_header();
     </div>
 </section>
 
-    <footer class="footer">
+<footer class="footer">
 
     <div class="footer-content">
         <div class="container">
@@ -705,8 +674,3 @@ get_header();
 <?php
 get_footer();
 ?>
-
-
-
-
-

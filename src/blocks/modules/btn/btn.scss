@@ -1,13 +1,16 @@
 .btn {
     display: inline-block;
     border: 0;
-    border-bottom: 2px solid  darken($main-blue, 15%) !important;
-    background-color: darken($main-blue, 15%) !important;
+    border-bottom: 2px solid darken($main-blue, 15%) !important;
+    background-color: #fe8001 !important;
+    border-bottom: 1px solid #065fa3 !important;
     color: #fff !important;
-    padding: 0.75rem 3rem;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 500;
+    padding: .75rem 3rem;
     text-transform: uppercase;
     border-radius: 10px;
-    font-family: $title-font;
+
     cursor: pointer;
     transition: all .25s;
     letter-spacing: .45px;
@@ -18,7 +21,8 @@
     }
 
     &:hover {
-        background-color: darken($main-blue, 5%) !important;
+        background-color: #065fa3 !important;
+        border-bottom: 1px solid #fe8001 !important;
     }
 
     &:active {
@@ -27,11 +31,14 @@
 }
 
 .first-screen-text__btn {
-    background-color: #f9c92b !important;
+    background-color: darken(#fe9934, 10%) !important;
 }
+
 .first-screen-text__btn:hover {
     background-color: darken($main-blue, 25%) !important;
+    border-bottom: 2px solid darken(#fe9934, 15%) !important;
 }
+
 .first-screen-text__btn:active {
     background-color: darken($main-blue, 40%) !important;
 }

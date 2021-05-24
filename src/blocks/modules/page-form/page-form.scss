@@ -35,16 +35,48 @@
             flex-direction: column-reverse;
         }
 
-        &__img { 
+        &__img {
             display: none;
         }
 
 
-        
+
     }
 
     .page-form__item_img {
         display: none !important;
 
     }
+}
+
+
+//main-form 
+
+.main-form__h3 {
+    font-size: 1.3rem;
+    color: #000 !important;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.main-form__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-form__item {
+    flex-basis: calc(33.333% - 20px);
+    margin-top: 15px;
+
+    display: flex;
+}
+
+.main-form__input:not(:first-child) {
+    margin-left: 15px;
+}
+
+.main-form__input {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #000;
 }
