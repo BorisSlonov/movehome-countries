@@ -3183,6 +3183,7 @@ input[type="submit"]:active {
 .dress-popup__car-wrap img {
   width: 100%;
   max-width: 320px;
+  object-fit: contain;
 }
 
 .acc-arrow {
@@ -3193,6 +3194,7 @@ input[type="submit"]:active {
   height: 20px;
   background-color: #fff;
   border-radius: 50%;
+  transition: all .3s;
 }
 
 .acc-arrow::after {
