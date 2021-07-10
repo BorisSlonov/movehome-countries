@@ -8005,7 +8005,7 @@ body {
 }
 
 .main-btn {
-	background-color: #0885d8;
+	background-color: #0885d8 !important;
 	text-align: center;
 	color: #fff;
 	padding-top: .5em;
@@ -8566,8 +8566,7 @@ img {
 	position: relative;
 	padding-top: 50px;
 
-	background-color: #098AED;
-	background-image: url("https://movehome.eu/wp-content/uploads/2020/12/world_map_png2.png");
+	background-image: url("1bg.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: 50% 135px;
@@ -8709,17 +8708,6 @@ img {
 	background-color: #044272 !important;
 }
 
-.first-screen-text__btn {
-	background-color: #f9c92b !important;
-}
-
-.first-screen-text__btn:hover {
-	background-color: #044272 !important;
-}
-
-.first-screen-text__btn:active {
-	background-color: #021828 !important;
-}
 
 .section-our-services {
 	padding: 5rem 0;
