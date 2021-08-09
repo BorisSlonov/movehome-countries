@@ -1,4 +1,25 @@
-var app = new Vue({
+"use strict"
+
+//burger
+window.addEventListener('DOMContentLoaded', () => {
+    const menu = document.querySelector('.header-white__list'),
+        menuItem = document.querySelectorAll('.header-white__link'),
+        hamburger = document.querySelector('.header-white__burger');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('burger_active');
+        menu.classList.toggle('menu_active');
+    });
+
+    menuItem.forEach(item => {
+        item.addEventListener('click', () => {
+            hamburger.classList.toggle('burger_active');
+            menu.classList.toggle('menu_active');
+        })
+    })
+});
+
+let appAccord = new Vue({
     el: '.accordion',
     data: {
     },

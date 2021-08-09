@@ -671,102 +671,22 @@ textarea {
 }
 
 
-.section-our-services {
+/* our-service */
+
+.service-process-bg {
   padding: 60px 0;
-  background-image: url(../img/map-bg.svg);
-  background-size: cover;
   background-position: 50% 50%;
-}
-
-.our-services__row {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.5rem;
-  align-items: stretch;
-}
-
-.our-services__item {
-  text-align: center;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-basis: calc(33.333% - 10px);
-  padding: 35px 50px;
-
-  background: rgba(0, 117, 255, 0.04);
-  border: .5px solid #006EFF;
-
-  border-image-slice: 1;
-  border-radius: 5px;
+  background-color: #F4F9FF;
 
 }
 
-.our-services__item .main-btn {
-  margin-top: auto;
-}
-
-.our-services__h3 {
-  font-family: Cantarell;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 100%;
-  /* identical to box height, or 28px */
-
-  text-align: center;
-
-  color: #000000;
+.section-our-services {
+  background-image: url(../img/dots-map.png);
 }
 
 
-.section-country-services {
-  padding: 60px 0;
-}
+/* our-service */
 
-
-
-
-.our-services__item:hover .our-services__title {
-  background-color: #05518b;
-  letter-spacing: .1rem;
-}
-
-.our-services__icon {
-  margin-bottom: 1.25rem;
-}
-
-.our-services__icon img {
-  display: block;
-  max-width: 120px;
-  margin: 0 auto;
-}
-
-.our-services__title {
-  text-decoration: none;
-  display: block;
-  text-align: center;
-  margin-top: 1.25rem;
-  font-size: 1.5rem !important;
-  color: #fff !important;
-  background-color: #098AED;
-  padding: 0.5rem 0;
-  border-radius: 10px;
-  transition: all .25s;
-}
-
-.our-services__text {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 151%;
-  /* or 24px */
-
-  text-align: center;
-
-  color: #252525;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
 
 .section-page-form {
   padding: 5rem 0;
@@ -3322,10 +3242,10 @@ input[type="submit"]:active {
 
   .header-white__menu-inner {
     max-width: 100%;
-    margin-left: 20px !important;
+    margin-left: 10px !important;
+    margin-right: 20px !important;
+    align-items: center;
   }
-
-
 
 
   .section-page1 {
@@ -3820,11 +3740,18 @@ input[type="submit"]:active {
     right: -100%;
     width: 100%;
     height: 100%;
-    padding: 20px 0;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     flex-direction: column;
     justify-content: space-around;
     overflow: auto;
-    background-color: #006ba1;
+    background-color: #fff;
+  }
+
+  .header-white__list li:not(:first-child) {
+    margin-left: 0;
   }
 
   .header-white__list li:last-child {
@@ -3844,18 +3771,23 @@ input[type="submit"]:active {
   .header-white__burger {
     display: block;
     position: absolute;
+    top: 21px;
     right: 0;
     margin-left: auto;
     z-index: 1100;
-    width: 40px;
+    width: 18px;
   }
 
   .header-white__burger span {
     display: block;
     height: 2px;
-    width: 100%;
+    width: 18px;
     border-radius: 5px;
-    background-color: #006ba1;
+    background-color: #000000;
+  }
+
+  .header-white__burger.burger_active span {
+    background-color: #000;
   }
 
   .header-white__burger span:not(first-child) {
@@ -4122,8 +4054,9 @@ input[type="submit"]:active {
   background-position: 50% top;
   background-repeat: no-repeat;
 }
+
 .section-country-advantages {
-  
+
   padding: 60px 0;
 }
 
@@ -4159,6 +4092,15 @@ input[type="submit"]:active {
 
 @media(max-width:1024px) {
 
+  .header-white__logo,
+  .header-white-contacts__tel {
+    z-index: 2000;
+  }
+
+  .header-white__contacts {
+    border: none;
+  }
+
   .country-advantages {
     flex-direction: column;
     align-items: flex-start;
@@ -4175,6 +4117,14 @@ input[type="submit"]:active {
 
 
 @media(max-width:550px) {
+  .header-white-contacts__mess {
+    display: none;
+  }
+
+  .header-white-contacts__item_tel a:not(:first-child) {
+    margin-left: 0;
+  }
+
   .country-advantages__item img {
     max-width: 60px;
   }
@@ -4325,6 +4275,10 @@ input[type="submit"]:active {
 }
 
 @media(max-width:375px) {
+  .header-white-contacts {
+    margin-left: -10px;
+  }
+
   .accordion-item-head {
     font-size: 14px;
   }
