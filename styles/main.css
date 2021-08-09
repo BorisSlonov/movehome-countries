@@ -397,7 +397,6 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif !important;
-  font-weight: 800 !important;
 }
 
 h1,
@@ -438,11 +437,14 @@ img {
 }
 
 .main-h2 {
-  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 151%;
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 2rem !important;
-  color: #1F2654 !important;
+  color: #000000;
+  margin-bottom: 50px;
 }
 
 .main-h2_white {
@@ -476,15 +478,17 @@ textarea {
 
 .section-first-screen {
   position: relative;
-  padding-top: 120px;
   background-image: url("../img/1bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  padding-bottom: 8rem;
+  padding: 100px 0;
 }
 
-
+.main {
+  display: block;
+  padding-top: 120px;
+}
 
 .first-screen-svg {
   position: absolute;
@@ -645,7 +649,6 @@ textarea {
   transition: all .25s;
   letter-spacing: .45px;
   text-decoration: none;
-  max-width: 310px;
   font-style: normal;
   font-weight: 600;
   font-size: 18px !important;
@@ -1759,6 +1762,7 @@ textarea {
   padding: 25px;
   border-radius: 10px;
 }
+
 
 .section-our-advantages {
   padding: 80px 0;
@@ -3142,7 +3146,7 @@ input[type="submit"]:active {
     flex-direction: column;
   }
 
- 
+
 }
 
 @media (max-width: 767px) {
@@ -3321,7 +3325,7 @@ input[type="submit"]:active {
     margin-left: 20px !important;
   }
 
- 
+
 
 
   .section-page1 {
@@ -3780,9 +3784,9 @@ input[type="submit"]:active {
   display: block;
 }
 
-.header-white__logo-name img {
+.header-white__logo-name {
   width: 100%;
-  max-width: 160px;
+  max-width: 230px;
 }
 
 .header-white__menu-inner {
@@ -4112,9 +4116,14 @@ input[type="submit"]:active {
 
 
 
-
-.section-country-advantages {
+.advantages-services-bg {
   background-color: #F5F6F8;
+  background-image: url(../img/map-bg.png);
+  background-position: 50% top;
+  background-repeat: no-repeat;
+}
+.section-country-advantages {
+  
   padding: 60px 0;
 }
 
@@ -4203,5 +4212,120 @@ input[type="submit"]:active {
   .example-item__list:last-child {
     margin-left: 0;
     margin-top: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-answers {
+  padding: 50px 0;
+  background-color: #F4F9FF;
+}
+
+.answers {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.accordion-item:not(:first-child) {
+  margin-top: 15px;
+}
+
+.accordion-item-head {
+  position: relative;
+  z-index: 10;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 151%;
+  box-shadow: 0px 29px 52.8537px rgba(217, 228, 248, 0.76);
+
+}
+
+
+.accordion-item-head:after {
+  content: '';
+  background-image: url(/img/arrow-br.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 14px;
+  height: 14px;
+  display: block;
+  position: absolute;
+  right: 25px;
+  transform: translateY(-50%) rotate(0);
+  top: 50%;
+  transition: all .3s;
+}
+
+.accordion-item-head:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 4px;
+  height: 30px;
+  background-color: #0075FF;
+}
+
+.accordion-item-head.active:after {
+  content: '';
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.accordion-item-body {
+  /* display: none; */
+  transform: translateY(35%);
+  color: transparent;
+  padding-left: 20px;
+  padding-right: 40px;
+  height: 0;
+}
+
+.accordion-item-head.active+.accordion-item-body {
+  /* display: block !important; */
+  height: 100%;
+  transform: translateY(0);
+  color: #000;
+  transition: all .4s;
+
+}
+
+.accordion-item-body__p {
+  max-width: 720px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+@media(max-width:550px) {
+  .accordion-item-head {
+    font-size: 16px;
+  }
+}
+
+@media(max-width:375px) {
+  .accordion-item-head {
+    font-size: 14px;
   }
 }
