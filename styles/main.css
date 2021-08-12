@@ -4719,7 +4719,7 @@ input[type="submit"]:active {
 
 .accordion-item-head:after {
   content: '';
-  background-image: url(/img/arrow-br.svg);
+  background-image: url(../img/arrow-br.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
