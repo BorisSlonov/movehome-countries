@@ -4912,7 +4912,7 @@ input[type="submit"]:active {
   margin: 40px 0;
 }
 
-.popup-service-container .fancybox-close-small{
+.popup-service-container .fancybox-close-small {
   color: #fff !important;
 }
 
@@ -5212,6 +5212,14 @@ input[type="submit"]:active {
 }
 
 
+.popup-service-container .fancybox-close-small {
+}
 
+.popup-service-container .fancybox-close-small::before {
+  content: 'Закрыть';
+  position: absolute;
+  transform: translateX(calc(-100% - 20px));
+  margin-top: 1px;
+}
 
 /* service-popup */
