@@ -5212,8 +5212,7 @@ input[type="submit"]:active {
 }
 
 
-.popup-service-container .fancybox-close-small {
-}
+.popup-service-container .fancybox-close-small {}
 
 .popup-service-container .fancybox-close-small::before {
   content: 'Закрыть';
@@ -5223,3 +5222,117 @@ input[type="submit"]:active {
 }
 
 /* service-popup */
+
+
+/* last-form */
+
+.section-last-form {
+  padding: 80px 0;
+  background-image: url(../img/last-map-bg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+
+.last-form__item_form {
+  position: relative;
+  z-index: 10;
+  max-width: 820px;
+  margin-left: auto;
+}
+
+.last-form__item_form::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  bottom: -80px;
+  left: -400px;
+  background-image: url(../img/man-form.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.last-form__h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 151%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.full-form__body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.full-form__input {
+  flex-basis: calc(50% - 20px);
+  margin-top: 20px;
+  border: 1px solid #DEDEDE;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.full-form__input:nth-child(2n) {
+  margin-left: 20px;
+}
+
+.full-form__input:nth-child(-n+2) {
+  margin-top: 0;
+}
+
+.full-form__textarea {
+  display: block;
+  resize: none;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 1px solid #DEDEDE;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.full-form__btn {
+  margin-right: 20px;
+}
+
+@media(max-width:600px) {
+  .full-form__btn {
+    margin-right: 0;
+  }
+
+  .full-form__textarea {
+    margin-right: 0;
+  }
+
+  .full-form__body {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .full-form__input {
+    max-width: calc(50% - 10px);
+    padding: 20px 15px;
+  }
+
+  .full-form__input:nth-child(2n) {
+    margin-left: 10px;
+  }
+
+}
+
+
+/* last-form */
