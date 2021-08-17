@@ -500,7 +500,7 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 .main {
@@ -3897,7 +3897,7 @@ input[type="submit"]:active {
 
 
 .first-form-wrap__inner {
-  padding: 50px 25px;
+  padding: 40px 25px;
   border-radius: 5px;
   background-color: #fff;
 }
@@ -4282,7 +4282,7 @@ input[type="submit"]:active {
 .header-white__link {
   height: 100%;
   width: 100%;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 500;
   font-family: Montserrat, sans-serif;
   text-decoration: none;
