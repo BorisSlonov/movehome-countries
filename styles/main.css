@@ -427,8 +427,8 @@ input:focus {
 }
 
 .container {
-  max-width: 1170px;
-  padding: 0 30px;
+  max-width: 1280px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -495,12 +495,15 @@ textarea {
 }
 
 .section-first-screen {
+  padding: 80px 0;
+  -webkit-background-size: 1680px 870px;
   position: relative;
-  background-image: url("../img/1bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  padding: 60px 0;
+  background-position: 40% 50%;
+  background-attachment: fixed;
+  background-image: url("../img/bg1.jpg"), linear-gradient(133.83deg, #0A132B 4.59%, rgba(10, 19, 43, 0.15) 65.89%), linear-gradient(0deg, rgba(10, 19, 43, 0.46), rgba(10, 19, 43, 0.46));
+
 }
 
 .main {
@@ -677,9 +680,7 @@ textarea {
     font-size: 14px;
   }
 
-  .main {
-    padding-top: 50px;
-  }
+
 
   .first-screen-text__btn {
     display: none !important;
@@ -921,7 +922,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 160px 0;
+  padding: 140px 0;
 }
 
 .process__body::before {
@@ -944,8 +945,8 @@ textarea {
   align-items: center;
   border: 1px solid #0077ff59;
   border-radius: 50%;
-  width: 106px;
-  height: 106px;
+  width: 80px;
+  height: 80px;
   z-index: 1;
   background-color: #F4F9FF;
 }
@@ -985,7 +986,7 @@ textarea {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 100%;
   /* or 20px */
 
@@ -1009,7 +1010,7 @@ textarea {
 
 .process__item_5::after {
   content: 'Мы возьмем на себя все хлопоты по таможенному оформлению и транспортировке вашего имущества';
-  top: -128px;
+  top: -125px;
 }
 
 
@@ -1021,7 +1022,7 @@ textarea {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 100%;
   /* or 20px */
   text-align: center;
@@ -1030,19 +1031,19 @@ textarea {
 
 .process__item_2::before {
   content: 'В течение 2 часов мы сообщим точную стоимость и сроки переезда';
-  bottom: -145px;
+  bottom: -125px;
   max-width: 240px;
 }
 
 .process__item_4::before {
   content: 'Назначаем транспорт к вашему дому';
-  bottom: -105px;
+  bottom: -110px;
   max-width: 240px;
 }
 
 .process__item_6::before {
   content: 'Вы получите груз в назначенные сроки в целости и сохранности';
-  bottom: -145px;
+  bottom: -120px;
   max-width: 200px;
 }
 
@@ -1055,13 +1056,13 @@ textarea {
   border: 2px solid #0075FF;
   padding: 20px;
   border-radius: 50%;
-  width: 83px;
-  height: 83px;
+  width: 60px;
+  height: 60px;
 
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 24px;
   line-height: 100%;
   text-align: center;
 
@@ -1381,11 +1382,11 @@ textarea {
 .page-video__item_text {
   display: flex;
   flex-direction: column;
-  background-image: url(img/europe_network.svg);
-  background-size: 110%;
+  background-image: url(../img/europe_network.svg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  padding: 20px 0;
+  background-position: left 50%;
+  padding: 80px 0;
 }
 
 .page-video__sub-title {
@@ -1422,6 +1423,12 @@ textarea {
 
 
   color: #575757;
+}
+
+.video-country__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media(max-width:550px) {
@@ -1538,6 +1545,12 @@ textarea {
 
 .section-products {
   padding: 80px 0;
+  background-color: #F4F9FF;
+  background-image: url(../img/product-map.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .service-grid {
@@ -2775,7 +2788,7 @@ textarea {
 }
 
 .service-grid__img img {
-  max-width: 60px;
+  max-width: 40px;
 }
 
 .page-reviews {
@@ -4319,13 +4332,16 @@ input[type="submit"]:active {
   margin: 0 5px;
 }
 
-.header-white__logo-name {
-  display: block;
-}
+
 
 .header-white__logo-name {
+  display: block;
   width: 100%;
   max-width: 230px;
+  height: 100%;
+  background-image: url(../img/logo-blue.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .header-white__menu-inner {
@@ -4344,6 +4360,11 @@ input[type="submit"]:active {
 .header-white__list li:not(:first-child) {
   margin-left: 30px;
   font-size: 16px;
+}
+
+.header-white__logo-svg {
+  width: 100%;
+  stroke: #fff !important;
 }
 
 @media(max-width:1024px) {
@@ -4505,7 +4526,7 @@ input[type="submit"]:active {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 10px;
 }
 
 .country-services__item {
@@ -4524,7 +4545,7 @@ input[type="submit"]:active {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 151%;
   color: #fff;
 }
@@ -4587,13 +4608,6 @@ input[type="submit"]:active {
 }
 
 
-
-
-.section-products {
-  background-image: url(../img/product-map.svg);
-  background-size: cover;
-  background-position: 50% 50%;
-}
 
 
 .service-grid__row {

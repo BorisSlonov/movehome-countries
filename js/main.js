@@ -39,7 +39,5 @@ let appAccord = new Vue({
 });
 
 
-
-
-
+new WOW().init();
 
