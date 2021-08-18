@@ -439,9 +439,23 @@ input:focus {
   background-color: transparent !important;
 }
 
+.popup_consult {
+  border-radius: 10px;
+  max-width: 520px;
+  padding: 30px;
+}
+
+.popup_consult .service-popup-form {
+  background-color: #fff;
+}
+
 @media(max-width:425px) {
   .container {
     padding: 0 20px;
+  }
+
+  .popup_consult  {
+    padding: 40px 20px;
   }
 }
 

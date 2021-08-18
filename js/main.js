@@ -41,13 +41,3 @@ let appAccord = new Vue({
 
 new WOW().init();
 
-
-window.addEventListener('DOMContentLoaded', (event) => {
-
-    function addAnimateClass() {
-        let firstAnimateFadeIn = document.querySelector('.first-screen-animate-fadeInUp');
-        firstAnimateFadeIn.classList.add('aniamte__fadeInUp', 'aniamte__animated', 'wow')
-    }
-
-    setInterval(addAnimateClass, 1000);
-});
