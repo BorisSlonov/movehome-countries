@@ -422,9 +422,15 @@ input {
   outline: none;
 }
 
-input:focus {
-  border-color: #005dc6;
+input:focus,
+textarea:focus {
+  box-shadow: 2px 2px 0px #015bc2b4;
 }
+.first-form__input:focus,
+.first-form__textarea:focus {
+
+}
+
 
 .container {
   max-width: 1280px;
@@ -4016,10 +4022,6 @@ input[type="submit"]:active {
   color: rgba(13, 13, 13, 0.93);
 }
 
-.first-form__input:focus,
-.first-form__textarea:focus {
-  box-shadow: 4px 4px 0px #015bc2b4;
-}
 
 
 @media (max-width: 505px) {
