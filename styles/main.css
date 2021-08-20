@@ -521,7 +521,6 @@ textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40% 50%;
-  background-attachment: fixed;
   background-image: url("../img/bg1.jpg"), linear-gradient(133.83deg, #0A132B 4.59%, rgba(10, 19, 43, 0.15) 65.89%), linear-gradient(0deg, rgba(10, 19, 43, 0.46), rgba(10, 19, 43, 0.46));
 
 }
@@ -1254,6 +1253,7 @@ textarea {
 }
 
 .garant__header {
+  height: 200px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1290,21 +1290,23 @@ textarea {
 }
 
 .garant__text {
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 15px;
+ line-height: 1.5;
   margin-top: 25px;
-  text-align: center;
 }
 
 @media(max-width:1024px) {
   .garant__body {
     flex-direction: column;
+    max-width: 620px;
+    margin-left: auto;
+    margin-right: auto;
 
   }
 
   .garant__item:not(:first-child) {
     margin-left: 0;
-    margin: 30px;
+    margin-top: 30px;
   }
 }
 
@@ -1312,6 +1314,12 @@ textarea {
   .garant__header {
     padding-top: 60px;
     padding-bottom: 30px;
+  }
+}
+
+@media(max-width:550px) {
+  .garant__header {
+    height: 150px;
   }
 }
 
@@ -4546,6 +4554,9 @@ input[type="submit"]:active {
 }
 
 .country-services__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding-top: 100px;
   padding-bottom: 40px;
   padding-left: 40px;
@@ -4731,12 +4742,16 @@ input[type="submit"]:active {
   align-items: center;
 }
 
+.country-advantages__item img {
+  max-width:100px;
+}
+
 .country-advantages__item span {
   margin-left: 20px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 151%;
   /* or 27px */
 
