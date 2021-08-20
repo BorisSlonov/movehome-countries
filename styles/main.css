@@ -426,10 +426,9 @@ input:focus,
 textarea:focus {
   box-shadow: 2px 2px 0px #015bc2b4;
 }
-.first-form__input:focus,
-.first-form__textarea:focus {
 
-}
+.first-form__input:focus,
+.first-form__textarea:focus {}
 
 
 .container {
@@ -460,7 +459,7 @@ textarea:focus {
     padding: 0 20px;
   }
 
-  .popup_consult  {
+  .popup_consult {
     padding: 40px 20px;
   }
 }
@@ -1291,7 +1290,7 @@ textarea {
 
 .garant__text {
   font-size: 15px;
- line-height: 1.5;
+  line-height: 1.5;
   margin-top: 25px;
 }
 
@@ -4743,7 +4742,7 @@ input[type="submit"]:active {
 }
 
 .country-advantages__item img {
-  max-width:100px;
+  max-width: 100px;
 }
 
 .country-advantages__item span {
@@ -5288,7 +5287,223 @@ input[type="submit"]:active {
   margin-top: 40px;
 }
 
+.russia-country__header {
+  padding: 100px 0;
+  background-image: url(../img/russia-country-bg1.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+  text-align: center;
+}
 
+.russia-country-card__flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.russia-country-card-flag {
+  display: flex;
+  flex-direction: column;
+}
+
+.russia-country-card__arrows {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: -30px;
+}
+
+.russia-country-card-flag__img {
+  display: block;
+  width: 100%;
+  max-width: 120px;
+}
+
+.russia-country__h2 {
+  color: #fff;
+  margin: 30px 0;
+}
+
+.russia-country__sub-h2 {
+  color: #fff;
+}
+
+.russia-country__container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.russia-country__main {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.russia-country__h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.russia-country-steps {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+
+.russia-country-steps__item {
+  position: relative;
+  flex-basis: 25%;
+  padding: 40px;
+  line-height: 1.5;
+}
+
+.russia-country-steps__item::before {
+  content: '';
+  font-size: 54px;
+  font-family: Montserrat;
+  font-weight: 200;
+  color: #0075FF;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -30px;
+}
+
+.russia-country-steps__item_1::before {
+  content: '01';
+}
+
+.russia-country-steps__item_2::before {
+  content: '02';
+}
+
+.russia-country-steps__item_3::before {
+  content: '03';
+}
+
+.russia-country-steps__item_4::before {
+  content: '04';
+}
+
+.russia-country-steps__item_5::before {
+  content: '05';
+}
+
+.russia-country-steps__item_6::before {
+  content: '06';
+}
+
+.russia-country-steps__item_7::before {
+  content: '07';
+}
+
+
+
+.russia-country-steps__item::after {
+  content: '';
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  height: 20px;
+  top: 20px;
+}
+
+
+
+
+
+.russia-country__footer {
+  padding: 80px 0;
+  background-image: url(../img/last-map-bg.png);
+  background-color: #fff;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.russia-country__form-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.russia-country__list {
+  margin-left: 50px;
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.russia-country__li:not(:first-child) {
+  margin-top: 20px;
+}
+
+
+.russia-country__li {
+  position: relative;
+}
+
+.russia-country__li::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  background-image: url(../img/d-check.svg);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+
+@media(max-width:990px) {
+  .russia-country-steps__item {
+    padding: 30px;
+  }
+
+  .russia-country-steps__item::after {
+    top: 15px;
+  }
+
+  .russia-country-steps__item {
+    flex-basis: 50%;
+  }
+
+  .russia-country__form-wrap  {
+    flex-direction: column-reverse;
+  }
+
+  .russia-country__list {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+
+  .russia-country__footer {
+    padding: 40px 0;
+  }
+
+  .russia-country__main {
+    padding: 40px 0;
+  }
+
+}
+
+@media(max-width:550px) {
+  .russia-country-steps__item {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .russia-country-steps__item:nth-child(odd) {
+    padding-right: 10px;
+  }
+}
 
 /* russia-popup */
 

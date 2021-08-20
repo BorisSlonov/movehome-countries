@@ -31,7 +31,7 @@
         integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
         crossorigin="anonymous">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&family=Open+Sans:wght@300;400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;800&family=Open+Sans:wght@300;400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
         integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
@@ -41,7 +41,7 @@
         integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="styles/main.css?ver=1.02">
+    <link rel="stylesheet" href="styles/main.css?ver=2">
 </head>
 
 <body>
@@ -1013,21 +1013,6 @@
                             <div class="accordion-item wow animate__animated animate__fadeInUp">
 
                                 <h3 class="accordion-item-head" v-on:click="accordion">
-                                    Какой минимальный объём вы отправляете?
-                                </h3>
-                                <div class="accordion-item-body">
-                                    <p class="accordion-item-body__p">
-                                        Кто, по-вашему, этот мощный старик? Не говорите, вы не можете этого знать. Это —
-                                        гигант мысли, отец русской демократии и особа, приближенная к императору.
-
-                                        Кто, по-вашему, этот мощный старик? Не говорите, вы не можете этого знать. Это —
-                                        гигант мысли, отец русской демократии и особа, приближенная к императору
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="accordion-item wow animate__animated animate__fadeInUp">
-
-                                <h3 class="accordion-item-head" v-on:click="accordion">
                                     Мне нужно оплачивать пошлину при отправке вещей в Германии?
                                 </h3>
                                 <div class="accordion-item-body">
@@ -1088,38 +1073,152 @@
         <div class="russia-country">
             <div class="russia-country__body">
                 <div class="russia-country__header">
-                    <div class="russia-country-card__flags">
-                        <div class="russia-country-card-flag">
-                            <span class="our-services-card-flag__name">Россия</span>
-                            <img class="russia-country-card-flag__img"
-                                src="https://movehome.eu/wp-content/uploads/2020/04/russia.png" alt="">
+                    <div class="russia-country__container">
+                        <div class="russia-country-card__flags">
+                            <div class="russia-country-card-flag">
+                                <span class="our-services-card-flag__name">Россия</span>
+                                <img class="russia-country-card-flag__img"
+                                    src="https://movehome.eu/wp-content/uploads/2020/04/russia.png" alt="">
+                            </div>
+                            <div class="russia-country-card__arrows">
+                                <div class="our-services-card__arrow"></div>
+                                <div class="our-services-card__arrow"></div>
+                            </div>
+                            <div class="russia-country-card-flag">
+                                <span class="our-services-card-flag__name">Германия</span>
+                                <img class="russia-country-card-flag__img"
+                                    src="https://movehome.eu/wp-content/uploads/2020/04/germany_new_flag.png" alt="">
+                            </div>
                         </div>
-                        <div class="russia-country-card__arrows">
-                            <div class="our-services-card__arrow"></div>
-                            <div class="our-services-card__arrow"></div>
-                        </div>
-                        <div class="russia-country-card-flag">
-                            <span class="our-services-card-flag__name">Германия</span>
-                            <img class="russia-country-card-flag__img"
-                                src="https://movehome.eu/wp-content/uploads/2020/04/germany_new_flag.png" alt="">
+                        <h2 class="russia-country__h2">
+                            «Move Home» занимается доставкой и таможенным оформлением переездов по маршруту
+                        </h2>
+                        <p class="russia-country__sub-h2">
+                            <span class="russia-country__sub-h2-span">
+                                Германия
+                            </span>
+                            |
+                            <span class="russia-country__sub-h2-span">
+                                Россия
+                            </span>
+                            |
+                            <span class="russia-country__sub-h2-span">
+                                Германия
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="russia-country__main">
+                    <div class="russia-country__container">
+                        <h3 class="russia-country__h3">
+                            Как происходит переезд и с чего нужно начать
+                        </h3>
+
+                        <ul class="russia-country-steps">
+                            <li class="russia-country-steps__item russia-country-steps__item_1">
+                                <span class="russia-country-steps__span">
+                                    Вы присылаете описание например: одежда и обувь
+                                </span>
+                            </li>
+                            <li class="russia-country-steps__item russia-country-steps__item_2">
+                                <span class="russia-country-steps__span">
+                                    Измеряете
+                                    габариты коробки:
+                                    30см х30см х 30см.
+                                </span>
+                            </li>
+                            <li class="russia-country-steps__item russia-country-steps__item_3">
+                                <span class="russia-country-steps__span">
+                                    Указываете примерный вес:
+                                    20 кг
+                                </span>
+                            </li>
+                            <li class="russia-country-steps__item russia-country-steps__item_4">
+                                <span class="russia-country-steps__span">
+                                    От куда
+                                    нужно забрать:
+                                    Берлин
+                                </span>
+                            </li>
+                            <li class="russia-country-steps__item russia-country-steps__item_5">
+                                <span class="russia-country-steps__span">
+                                    Куда
+                                    нужно доставить: Москва
+                                </span>
+                            </li>
+                            <li class="russia-country-steps__item russia-country-steps__item_6">
+                                <span class="russia-country-steps__span">
+                                    Для страхования переезда нужно указать стоимость вещей:
+                                    100 евро
+                                </span>
+                            </li>
+                            <li class="russia-country-steps__item russia-country-steps__item_7">
+                                <span class="russia-country-steps__span">
+                                    Заключение договора с нашей компанией
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="russia-country__footer">
+                    <div class="russia-country__container">
+                        <div class="russia-country__form-wrap">
+                            <div class="first-form-wrap">
+                                <div class="first-form-wrap__inner">
+                                    <h3 class="first-form-h3">
+                                        Рассчитаем стоимость перевозки вашего груза за 15 минут
+                                    </h3>
+                                    <div class="first-form">
+
+                                        <input type="text" class="first-form__input" placeholder="Откуда">
+                                        <input type="text" class="first-form__input" placeholder="Куда">
+                                        <input type="text" class="first-form__input" placeholder="Вес (кг)">
+                                        <input type="text" class="first-form__input" placeholder="Габариты ( м3)">
+                                        <input type="text" class="first-form__input" placeholder="Почта">
+                                        <input type="text" class="first-form__input" placeholder="Телефон">
+                                        <textarea class="first-form__textarea" placeholder="Описание"></textarea>
+                                        <div class="first-form__btn-wrap">
+                                            <p>
+                                                Отправляя свои данные через эту форму, вы соглашаетесь с политикой
+                                                обработки
+                                                персональных данных и с политикой конфиденциальности
+                                            </p>
+                                            <input placeholder="Отправить" readonly
+                                                class="btn main-btn main-btn_yellow main-btn_w100">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="russia-country__list">
+                                <li class="russia-country__li">
+                                    Забираем вашу посылку от двери и доставим
+                                    до двери
+                                </li>
+                                <li class="russia-country__li">
+                                    В нашем управлении имеются собственные склады консолидации в 5 крупныхгородах
+                                    Германии
+                                    и России
+                                </li>
+                                <li class="russia-country__li">
+                                    Вы можете заказывать товары из
+                                    интернет-магазинов с доставкой на них
+                                </li>
+                                <li class="russia-country__li">
+                                    Стоимость доставки посылок от 20 килограмм
+                                    по маршруту Германия – Россия –
+                                    Германия, 6 евро
+                                    за килограмм
+                                </li>
+                                <li class="russia-country__li">
+                                    Время в пути занимает от 14 до 21 дня
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <h2 class="russia-country__h2">
-                        «Move Home” занимается доставкой и таможенным оформлением переездов по маршруту
-                    </h2>
-                    <p class="russia-country__sub-h2">
-                        <span class="russia-country__sub-h2-span">
-                            Германия
-                        </span>
-                        |
-                        <span class="russia-country__sub-h2-span">
-                            Россия
-                        </span>
-                        |
-                        <span class="russia-country__sub-h2-span">
-                            Германия
-                        </span>
-                    </p>
                 </div>
             </div>
         </div>
